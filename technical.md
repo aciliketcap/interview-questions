@@ -25,10 +25,10 @@
  - How do you live-migrate a VM to another host in the cluster in vSphere Client? (ie. where do you click?)
 ## Software Development
 ### Exceptions
- * (In whatever language and environment you are interviewing for) What happens (to the application) when some code running in a worker thread throws an exception?
+ * (In whatever language and environment you are interviewing for) What happens (to the application) when some code running in a worker thread throws an unhandled exception?
 ### Inheritance
 ### Frontend
- * (For whatever UI framework you are interviewing for) What happens when you call a method which causes a new event to fire inside event handler code? (the answerr may change depending on the framework.) It is best if the candidate is given a sandbox environment for trial and error.
+ * (For whatever UI framework you are interviewing for) What happens when you call a method which causes a new event to fire inside event handler code? (The answer may change depending on the framework.) It is best if the candidate is given a sandbox environment for trial and error. (I hope to upload code example in WinForms and Android some time.)
  * How do you prevent the UI to freeze while waiting for a blocking operation to end. A regular example would be to write code which starts an HTTP request and shows a spinner in the UI until request is replied. Bonus; write code which handles exceptions in the thread and shows an error in the UI.
 ### Reference/Pointer
  * (For whichever language you are interviewing for) How can we check if two lists contain the same elements? (just assume these are integer lists for clarity.)

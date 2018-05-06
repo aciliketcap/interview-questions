@@ -47,4 +47,4 @@
 ## SysAdmin
 ### General
  * Do you take backups of configuration files before modifying them? (Of course you can't ask this directly, just give a task and observe.)
- * How do you list users in a group in Linux?
+ * How do you list users in a group in Linux? (groups) Can you write a line of piped commands which does the same / similar job? (in Linux users have default and additional groups so you need to use "id -Gn" command on all usernames and filter the usernames which are in the group you are searching)

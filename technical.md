@@ -47,4 +47,4 @@
 ## SysAdmin
 ### General
  * Do you take backups of configuration files before modifying them? (Of course you can't ask this directly, just give a task and observe.)
-
+ * How do you list users in a group in Linux?
